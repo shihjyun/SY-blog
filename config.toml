@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://examplesite.com/"
+baseURL = "https://www.syviz.me/"
 languageCode = "zh-tw"
 # site title 
 title = "S.Y. Blog"
@@ -10,7 +10,7 @@ paginate = "5"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "shihjyun" # get your shortname form here : https://disqus.com
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
@@ -83,8 +83,6 @@ icon = "ti-github" # themify icon pack https://themify.me/themify-icons
 link = "https://github.com/shihjyun"
 
 
-############################## Disqus ###############################
-disqusShortname = "shihjyunyeo"
 
 
 
