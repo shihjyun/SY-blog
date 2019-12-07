@@ -1,0 +1,85 @@
+############################ Default configuration #########################
+baseURL = "https://examplesite.com/"
+languageCode = "zh-tw"
+# site title 
+title = "S.Y. Blog"
+# theme
+theme = "northendlab-hugo"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+
+# js plugins
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+URL = "plugins/search/mark.js"
+[[params.plugins.js]]
+URL = "plugins/search/search.js"
+
+
+########################### Navigation ###################################
+
+
+
+
+######################### Default Parameters ###########################
+[params]
+# home
+home = "Home"
+# logo
+logo = "images/logo.svg"
+# meta data
+author = "Shih-Jyun (Steven) Yeo"
+description = "This is meta description"
+# google analitycs ID
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#"
+# copyright
+copyright = "Modified by [Steven Yeo](#) + Designed and developed by [Themefisher](https://themefisher.com/)"
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# search
+[params.search]
+enable = true
+
+
+####################### banner #######################################
+[params.banner]
+bgImage = "images/banner/banner-bg.svg"
+title = "Hi, I'm Shih-Jyun (Steven) Yeo.<br> I love Data Viz and learn something cool."
+image = "images/banner/illustration.svg"
+
+
+
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+link = "https://github.com/shihjyun"
+
+
