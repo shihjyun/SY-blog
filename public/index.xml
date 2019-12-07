@@ -6,9 +6,19 @@
     <description>Recent content on S.Y. Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>測試測試</title>
+      <link>/post/%E6%B8%AC%E8%A9%A6%E6%B8%AC%E8%A9%A6/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E6%B8%AC%E8%A9%A6%E6%B8%AC%E8%A9%A6/</guid>
+      <description>測試測設測設</description>
+    </item>
     
     <item>
       <title>Shih-Jyun (Steven) Yeo</title>
