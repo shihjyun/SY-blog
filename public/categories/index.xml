@@ -6,9 +6,28 @@
     <description>Recent content in Categories on S.Y. Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
+    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese</title>
+      <link>/categories/chinese/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/chinese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>雜談</title>
+      <link>/categories/%E9%9B%9C%E8%AB%87/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E9%9B%9C%E8%AB%87/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
