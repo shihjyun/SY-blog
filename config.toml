@@ -71,7 +71,7 @@ enable = true
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 title = "Hi, I'm Shih-Jyun (Steven) Yeo.<br> I love Data Viz and learn something cool."
-image = "images/banner/illustration.svg"
+image = "images/banner/illustration-curve.svg"
 
 
 
