@@ -26,6 +26,7 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
   <link rel="icon" href="/images/favicon.png " type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/darcula.min.css" rel="stylesheet">
 
 </head><body>
 <!-- preloader start -->
@@ -164,5 +165,41 @@
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'Your ID', 'auto');
   ga('send', 'pageview');
-</script></body>
+</script>
+
+
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
+    },
+    // Center justify equations in code and markdown cells. Elsewhere
+    // we use CSS to left justify single line equations in code cells.
+    displayAlign: 'center',
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}},
+        linebreaks: { automatic: true }
+    }
+});
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/javascript.min.js"></script>
+
+<script>
+hljs.configure({languages: []});
+hljs.initHighlightingOnLoad();
+</script>
+
+</body>
 </html>
