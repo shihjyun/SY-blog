@@ -51,7 +51,7 @@ logo = "images/logo.svg"
 author = "Shih-Jyun (Steven) Yeo"
 description = "This is meta description"
 # google analitycs ID
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-154412622-1"
 # contact form action
 contactFormAction = "#"
 # copyright
