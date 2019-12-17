@@ -93,14 +93,14 @@ $n_{11} = 2, n_{01} = 0, n_{10} = 0, n_{00} = 2, n_{\cdot 1} = 1$ 最後 $\phi_{
 
 什麼？關係竟然有負數的！其實仔細從公式中想想這是有可能的！而且不少人都是如此！解釋上 **他們絕大部分時候不會在同一篇文章中同時出現**，也應該可以算是不在場證明吧？XD，接著我們簡單對以上數據進行視覺化：
 
-<center>
+```{r , echo=FALSE, out.width = '70%', fig.align='center'}
+knitr::include_graphics("/post/2019-12-09/Rplot01.png")
+```
 
-![](/post/2019-12-09/Rplot01.png)
-</center>
 
 由此可知，我們的目標是要找出共同推文關係越強的那群人是誰！由於總體關係數量龐大，這邊先篩選出 correlation 大於 0.8 的關係並進行視覺化！
 
-```{r, results='asis', echo=FALSE, }
+```{r, results='asis', echo=FALSE, out.width = '90%', fig.align='center'}
 cat(htmltools::includeHTML("../../static/post/2019-12-09/cyber_network.html"))
 ```
 

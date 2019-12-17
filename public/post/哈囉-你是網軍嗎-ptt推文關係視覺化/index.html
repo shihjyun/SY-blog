@@ -176,9 +176,7 @@
 <pre><code>#&gt;     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
 #&gt; -0.361053 -0.020972 -0.003722  0.016514  0.046168  0.967019 </code></pre>
 <p>什麼？關係竟然有負數的！其實仔細從公式中想想這是有可能的！而且不少人都是如此！解釋上 <strong>他們絕大部分時候不會在同一篇文章中同時出現</strong>，也應該可以算是不在場證明吧？XD，接著我們簡單對以上數據進行視覺化：</p>
-<center>
-<img src="/post/2019-12-09/Rplot01.png" />
-</center>
+<p><img src="/post/2019-12-09/Rplot01.png" width="70%" style="display: block; margin: auto;" /></p>
 <p>由此可知，我們的目標是要找出共同推文關係越強的那群人是誰！由於總體關係數量龐大，這邊先篩選出 correlation 大於 0.8 的關係並進行視覺化！</p>
 <html>
 <head>
